@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Virtual environment
+venv/
+.env
+
+# IDE specific
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Test coverage
+coverage/
+.htmlcov
+.coverage
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Python installed packages
+*.egg
+*.egg-info
+*.whl
+*.zip
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~

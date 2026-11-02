@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  data-dashboard:
+    build: .
+    container_name: data_analysis_dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
